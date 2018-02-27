@@ -21,7 +21,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">weConnect</a>
+                <a class="navbar-brand" href="index.html">weConnect</a>
             </div>
             <!-- nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -41,18 +41,26 @@
     </nav>
 
     <div class="container intro">
-      <div class="row ">
-        <div class="col-md-4 ">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
         </div>
-        <div class="col-md-4 text-center ">
-          <p>welcome to weConnect, exposing your business to limitless opportunies  </p>
-          <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Get Started</a>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+            </div>
+            <div class="col-md-4"></div>
         </div>
-        <div class="col-md-4 ">
-        </div>
-      </div>
     </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
