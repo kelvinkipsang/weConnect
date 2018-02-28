@@ -1,4 +1,11 @@
 
+.intro9{
+    font-family: 'Varela Round', sans-serif; 
+    color: aliceblue;
+    font-size: 20px;
+  margin-top: 300px;
+    display: block;
+}
 .intro{
   margin-top: 100px;
 }
@@ -17,4 +24,7 @@
     max-width: 400px;
     padding: 20px;
     height: 200px;
+}
+body{
+    background-image: url('../img/back.jpg');
 }
