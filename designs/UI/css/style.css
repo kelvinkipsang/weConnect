@@ -9,11 +9,12 @@
 .intro{
   margin-top: 100px;
 }
-.form-signin {
+.form-signin input, button {
     max-width: 330px;
-    padding: 15px;
-    margin: 20 auto;
-    padding-bottom: 20px;
+    padding: 20px;
+    margin: 20px;
+/*    padding-bottom: 20px;*/
+    
 }
 .form-reg{
     max-width: 400px;
@@ -28,3 +29,17 @@
 body{
     background-image: url('../img/back.jpg');
 }
+.white-text {
+    color: white;
+    
+}
+
+.buttn {
+    margin-left: 0px;
+}
+
+.head9 {
+    margin-left: 20px;
+}
+
+
