@@ -18,3 +18,15 @@
   
   - search and review businesses
   
+
+# Interface
+
+
+- Home
+- Sign Up
+- Login
+- Catalog
+- Business Profile
+- Register business
+- Review Business
+- Log Out 
